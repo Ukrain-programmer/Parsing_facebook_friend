@@ -4,5 +4,5 @@ PROFILE_XPATH = "/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/d
 FRIEND_XPATH = "/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[2]/div[1]/div/div/div[3]/div/div/div/div[1]/div/div/div[1]/div/div/div/div/div/div/a[3]/div[1]"
 START_FRIEND_XPATH = '/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[4]/div/div/div/div/div/div/div/div/div[3]/div[{}]'
 FILE_NAME = 'users.txt'
-LOGIN = "380682342063"
+LOGIN = ""
 
