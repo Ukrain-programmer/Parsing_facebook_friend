@@ -1,0 +1,32 @@
+{
+  "version": 1,
+    "handlers": {
+      "fileHandler": {
+        "class": "logging.FileHandler",
+        "formatter": "fileFormatter",
+        "filename": "log.log",
+        "level": "ERROR"
+      },
+      "consoleHandler": {
+        "class": "logging.StreamHandler",
+        "formatter": "consoleFormatter",
+        "level": "INFO"
+      }
+    },
+    "loggers": {
+      "Friends_parser": {
+        "handlers": [
+          "consoleHandler", "fileHandler"
+        ],
+        "level": "INFO"
+      }
+    },
+    "formatters": {
+      "consoleFormatter": {
+        "format": "\u001B[94m[%(name)s - %(levelname)s]: %(message)s"
+      },
+      "fileFormatter": {
+        "format": "%(asctime)s - [%(name)s - %(levelname)s]: %(message)s"
+      }
+    }
+}
